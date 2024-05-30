@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
+        // Tarea: Correcion_PruebaBimestral_Joel Parra_Carlos Perez
         // Creacion de instancias de Hoteles
         Hoteles hoteles_1 = new Hoteles();
         Hoteles hoteles_2 = new Hoteles();
