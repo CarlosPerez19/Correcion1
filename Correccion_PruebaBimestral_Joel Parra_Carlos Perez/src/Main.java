@@ -11,6 +11,7 @@ public class Main {
         Hoteles hoteles_5 = new Hoteles();
         Hoteles hoteles_6 = new Hoteles();
         Hoteles hoteles_7 = new Hoteles();
+        Hoteles hoteles_11 = new Hoteles();
 
         hoteles_1.getNombreHotel();
         hoteles_1.getUbicacion_hotel();
@@ -103,6 +104,21 @@ public class Main {
         hoteles_7.setReseñas("Habitaciones pequeñas");
         hoteles_7.setNumero_habitaciones(250);
 
+        hoteles_11.getNombreHotel();
+        hoteles_11.getUbicacion_hotel();
+        hoteles_11.getNum_estrellas_hotel();
+        hoteles_11.getReseñas();
+        hoteles_11.getNumero_habitaciones();
+
+        hoteles_11.ImprimirDatosHoteles();
+
+        hoteles_11.setNombreHotel("Emperador");
+        hoteles_11.setUbicacion_hotel("Ecuador");
+        hoteles_11.setNum_estrellas_hotel(3);
+        hoteles_11.setReseñas("Habitaciones pequeñas");
+        hoteles_11.setNumero_habitaciones(20);
+
+
         // Se mostraran todos los objetos con sus repectivos valores
 
         hoteles_1.ImprimirDatosHoteles();
@@ -112,6 +128,7 @@ public class Main {
         hoteles_5.ImprimirDatosHoteles();
         hoteles_6.ImprimirDatosHoteles();
         hoteles_7.ImprimirDatosHoteles();
+        hoteles_11.ImprimirDatosHoteles();
 
         // Llamada a la funcion que modificara los valores del hotel
         hoteles_7.ModificarDatosHoteles();
