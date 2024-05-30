@@ -104,6 +104,7 @@ public class Main {
         hoteles_7.setReseñas("Habitaciones pequeñas");
         hoteles_7.setNumero_habitaciones(250);
 
+        // Nuevo Hotel
         hoteles_11.getNombreHotel();
         hoteles_11.getUbicacion_hotel();
         hoteles_11.getNum_estrellas_hotel();
