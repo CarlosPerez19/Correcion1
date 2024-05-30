@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
+
         // Tarea: Correcion_PruebaBimestral_Joel Parra_Carlos Perez
         // Creacion de instancias de Hoteles
+
         Hoteles hoteles_1 = new Hoteles();
         Hoteles hoteles_2 = new Hoteles();
         Hoteles hoteles_3 = new Hoteles();
@@ -125,6 +127,7 @@ public class Main {
         Hoteles hoteles_10 = new Hoteles();
         hoteles_10.ImprimirDatosHoteles();
 
+        // Hoteles con valores nulos
         hoteles_8.HotelesNull();
         hoteles_9.HotelesNull();
         hoteles_10.HotelesNull();
